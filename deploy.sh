@@ -17,7 +17,7 @@ git init
 git add .
 git commit -m 'deploy'
 
-# 如果发布到 https://<USERNAME>.github.io
+# 如果发布到  https://<USERNAME>.github.io
 # git push -f git@github.com:delbug/vue3docs master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
