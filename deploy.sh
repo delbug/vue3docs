@@ -20,7 +20,10 @@ git commit -m 'deploy'
 # 如果发布到  https://<USERNAME>.github.io
 # git push -f git@github.com:delbug/vue3docs master
 
+git remote add origin https://github.com/delbug/vue3docs.git
+git push --set-upstream origin master:gh-pages
+
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:delbug/vue3docs.git master:gh-pages
+# git push -f git@github.com:delbug/vue3docs.git master:gh-pages
 
 cd -
